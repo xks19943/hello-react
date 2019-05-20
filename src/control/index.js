@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import ClickCounter from './ClickCounter';
+import ControlPanel from './ControlPanel';
 
 ReactDom.render(
-  <ClickCounter/>,
+  <ControlPanel/>,
   document.getElementById('root')
 );
 

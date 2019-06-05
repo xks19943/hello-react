@@ -16,9 +16,7 @@ import ReactDom from 'react-dom';
 // import { Provider } from 'react-redux';
 
 // ReactDom.render(
-//   <Provider store={Store}>
-//     <ControlPanel/>
-//   </Provider>,
+//   <ControlPanel/>,
 //   document.getElementById('root')
 // );
 
@@ -53,19 +51,25 @@ import ReactDom from 'react-dom';
 // );
 
 
-import WeatherApp from './weather_redux/WeatherApp';
-import {Provider} from 'react-redux';
-import store from './weather_redux/store';
+// import WeatherApp from './weather_redux/WeatherApp';
+// import {Provider} from 'react-redux';
+// import store from './weather_redux/store';
+//
+//
+// ReactDom.render(
+//   <Provider store={store}>
+//     <WeatherApp/>
+//   </Provider>,
+//   document.getElementById('root')
+// );
 
+
+import RouterDemo from './react-router-basic/RouteDemo';
 
 ReactDom.render(
-  <Provider store={store}>
-    <WeatherApp/>
-  </Provider>,
+  <RouterDemo/>,
   document.getElementById('root')
 );
-
-
 
 
 

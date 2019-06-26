@@ -64,10 +64,18 @@ import ReactDom from 'react-dom';
 // );
 
 
-import RouterDemo from './react-router-basic/RouteDemo';
+// import RouterDemo from './react-router-basic/RouteDemo';
+//
+// ReactDom.render(
+//   <RouterDemo/>,
+//   document.getElementById('root')
+// );
+
+
+import HookExample from './hook/HookExample';
 
 ReactDom.render(
-  <RouterDemo/>,
+  <HookExample/>,
   document.getElementById('root')
 );
 

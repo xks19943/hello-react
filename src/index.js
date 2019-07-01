@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 //import ControlPanel from './control/ControlPanel';
 //import ControlPanel from './control_flux/ControlPanel';
-//import ControlPanel from './control_redux/ControlPanel';
+import ControlPanel from './control_redux/ControlPanel';
 //import ControlPanel from './control_redux2/ControlPanel';
 
 
@@ -15,10 +15,10 @@ import ReactDom from 'react-dom';
 // import ControlPanel from './control_redux4_react_redux/ControlPanel';
 // import { Provider } from 'react-redux';
 
-// ReactDom.render(
-//   <ControlPanel/>,
-//   document.getElementById('root')
-// );
+ReactDom.render(
+  <ControlPanel/>,
+  document.getElementById('root')
+);
 
 
 // import store from './todos_demo1/store';
@@ -72,12 +72,12 @@ import ReactDom from 'react-dom';
 // );
 
 
-import HookExample from './hook/HookExample';
-
-ReactDom.render(
-  <HookExample/>,
-  document.getElementById('root')
-);
+// import HookExample from './hook/HookExample';
+//
+// ReactDom.render(
+//   <HookExample/>,
+//   document.getElementById('root')
+// );
 
 
 

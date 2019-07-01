@@ -2,7 +2,8 @@ import React,{Component} from 'react';
 import PropTypes from 'prop-types';
 import * as Actions from './Actions';
 import Counter from './Counter';
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
+import {connect} from './my-react-redux';
 
 //这是容器型组件
 class CounterContainer extends Component {

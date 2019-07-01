@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import Summary from './Summary';
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
+import {connect} from './my-react-redux';
 
 class SummaryContainer extends Component{
   constructor(props){

@@ -1,5 +1,3 @@
-//import {createStore} from 'redux';
-
 import {createStore} from './my-redux';
 import Reducer from './Reducer';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-//import ControlPanel from './control/ControlPanel';
+import ControlPanel from './control/ControlPanel';
 //import ControlPanel from './control_flux/ControlPanel';
 //import ControlPanel from './control_redux/ControlPanel';
 //import ControlPanel from './control_redux2/ControlPanel';
@@ -11,23 +11,23 @@ import ReactDom from 'react-dom';
 // import Store from './control_redux3_context/Store';
 
 
-import Store from './control_redux4_react_redux/Store';
-import ControlPanel from './control_redux4_react_redux/ControlPanel';
-//import { Provider } from 'react-redux';
-import { Provider } from './control_redux4_react_redux/my-react-redux';
-
-
-ReactDom.render(
-  <Provider store={Store}>
-    <ControlPanel/>
-  </Provider>,
-  document.getElementById('root')
-);
-
+// import Store from './control_redux4_react_redux/Store';
+// import ControlPanel from './control_redux4_react_redux/ControlPanel';
+// import { Provider } from 'react-redux';
+// import { Provider } from './control_redux4_react_redux/my-react-redux';
+//
+//
 // ReactDom.render(
-//   <ControlPanel/>,
+//   <Provider store={Store}>
+//     <ControlPanel/>
+//   </Provider>,
 //   document.getElementById('root')
 // );
+
+ReactDom.render(
+  <ControlPanel/>,
+  document.getElementById('root')
+);
 
 
 // import store from './todos_demo1/store';

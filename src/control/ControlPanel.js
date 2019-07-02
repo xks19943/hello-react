@@ -51,6 +51,7 @@ class ControlPanel extends Component{
     })
   }
 
+
   render(){
     console.log('Enter ControlPanel render');
     return(

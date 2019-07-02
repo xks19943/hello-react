@@ -1,7 +1,7 @@
-import React,{Component} from 'react';
+import React,{PureComponent} from 'react';
 import PropTypes from 'prop-types';
 
-class Counter extends Component {
+class Counter extends PureComponent {
   static propTypes = {
     caption: PropTypes.string.isRequired,
     initValue: PropTypes.number.isRequired,
@@ -46,6 +46,8 @@ class Counter extends Component {
   }
 
 
+
+
   updateCount(isIncrement){
     let previousValue = this.state.count;
     let newValue = isIncrement ? previousValue + 1 :  previousValue - 1;
@@ -65,11 +67,11 @@ class Counter extends Component {
   }
 
 
-  //决定一个组件什么时候不需要渲染
-  shouldComponentUpdate(nextProps, nextState) {
-    console.log('enter shouldComponentUpdate ');
-    return (nextProps.caption !== this.props.caption) || (nextState.count !== this.state.count)
-  }
+  // //决定一个组件什么时候不需要渲染
+  // shouldComponentUpdate(nextProps, nextState) {
+  //   console.log('enter shouldComponentUpdate ');
+  //   return (nextProps.caption !== this.props.caption) || (nextState.count !== this.state.count)
+  // }
 
 
   componentWillUpdate(){
